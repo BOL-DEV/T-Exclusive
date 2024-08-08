@@ -14,8 +14,8 @@ function App() {
             <Route index element={<Navigate replace to="Home" />} />
             <Route path="Home" element={<Home />} />
             <Route path="About" element={<About />} />
-            <Route path="Contact" element={<Contact />} />
             <Route path="Menu" element={<Menu />} />
+            <Route path="Contact" element={<Contact />} />
           </Route>
         </Routes>
       </BrowserRouter>

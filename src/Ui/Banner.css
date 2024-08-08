@@ -3,16 +3,23 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
   width: 100%;
-  height: 500px;
+  height: 400px;
 
-  background-image: url("./HomePage.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 0 50px;
   color: white;
+  text-align: center; /* Ensure text inside elements is centered */
+  box-shadow: inset 0 -150px 150px rgba(0, 0, 0, 0.7); /* Inset shadow covering lower half */
 }
+
 .Banner h1 {
   font-size: 40px;
+}
+
+.Banner p {
+  font-size: 20px;
+  font-weight: bolder;
 }
