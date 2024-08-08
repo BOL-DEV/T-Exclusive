@@ -1,0 +1,42 @@
+footer{
+    background-color: rgb(94, 65, 221);
+    width: 100%;
+    height: 15em;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.social h2{
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.social p {
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1rem;
+}
+
+.Address h2{
+    font-size: 1.5rem;
+}
+
+.Address {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Opens{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Opens h2{
+    font-size: 1.5rem;
+}

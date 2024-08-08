@@ -5,6 +5,7 @@ import Contact from "./Pages/Contact";
 import Menu from "./Pages/Menu";
 import AppLayout from "./Ui/AppLayout";
 
+
 function App() {
   return (
     <>

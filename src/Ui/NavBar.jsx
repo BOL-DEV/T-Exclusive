@@ -4,6 +4,7 @@ import "./Navbar.css";
 function NavBar() {
   return (
     <header>
+      {/* <img src="/Logo.jfif" alt="Logo"/> */}
       <h1>T Exclusive</h1>
       <nav>
         <ul>
