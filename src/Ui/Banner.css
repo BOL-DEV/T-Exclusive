@@ -1,0 +1,18 @@
+.Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+
+  background-image: url("./HomePage.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.Banner h1 {
+  font-size: 40px;
+}
