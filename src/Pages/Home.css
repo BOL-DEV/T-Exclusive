@@ -1,0 +1,64 @@
+.main {
+  background-color: lightblue;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.HomePage {
+  overflow-x: hidden;
+}
+
+.main h1 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.Cards {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.MenuSection {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.get {
+  display: flex;
+}
+.MenuSection h2 {
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.menuconentsection {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* width: 100%; */
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 1148px) {
+  .main {
+    flex-direction: column;
+  }
+  .ca {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  .menuconentsection {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: start;
+  }
+}

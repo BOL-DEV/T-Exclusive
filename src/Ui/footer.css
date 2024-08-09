@@ -1,42 +1,56 @@
-footer{
-    background-color: rgb(94, 65, 221);
-    width: 100%;
-    height: 15em;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
+footer {
+  background-color: rgb(94, 65, 221);
+  width: 100%;
+  height: 15em;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
 }
 
-.social h2{
-    padding-bottom: 2rem;
-    font-size: 1.5rem;
+.social h2 {
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 .social p {
-    display: flex;
-    gap: 1.2rem;
-    font-size: 1rem;
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1rem;
 }
 
-.Address h2{
-    font-size: 1.5rem;
+.Address h2 {
+  font-size: 1.5rem;
 }
 
 .Address {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
-.Opens{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+.Opens {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
-.Opens h2{
-    font-size: 1.5rem;
+.Opens h2 {
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 876px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .social {
+    margin-bottom: 40px;
+  }
+  .Opens {
+    margin-bottom: 40px;
+  }
+  .Address {
+    margin-bottom: 40px;
+  }
 }
