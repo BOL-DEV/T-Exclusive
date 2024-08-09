@@ -1,0 +1,29 @@
+.Service {
+  background-image: url("/public/signeture-bg-1_10_KVussGfl.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: inset 0 -150px 150px rgba(0, 0, 0, 0.7); /* Inset shadow covering lower half */
+}
+.Service {
+  color: white;
+}
+.Sercive-Text h2 {
+  margin-bottom: 20px;
+}
+.Sercive-Text {
+  width: 800px;
+}
+.Sercive-Text p {
+  font-weight: 500;
+}
+@media screen and (max-width: 1048px) {
+  .Service {
+    display: none;
+  }
+}

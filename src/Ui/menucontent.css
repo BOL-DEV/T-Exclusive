@@ -1,0 +1,10 @@
+.menucontent {
+  width: 300px;
+  border-bottom: 3px solid blue;
+  margin: 20px;
+  padding-bottom: 40px;
+}
+.menucontent h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
