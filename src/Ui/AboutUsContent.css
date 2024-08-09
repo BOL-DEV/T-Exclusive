@@ -1,0 +1,110 @@
+.about-cont {
+  margin: 5em;
+}
+
+.our-story {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.our-story h2 {
+  font-size: 2em;
+}
+
+.our-story p {
+  width: 70%;
+  font-size: 1.1em;
+}
+
+.setup {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0;
+}
+
+.text-cont p {
+  width: 65%;
+  margin-left: 4rem;
+  border-bottom: 1px solid gray;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+}
+
+.setup img {
+  width: 60%;
+  height: 60%;
+}
+
+.icon-cube {
+  color: white;
+  background-color: rgb(94, 65, 221);
+  padding: 0.1em 0.3em;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+
+.our-Specialties {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  color: white;
+  grid-gap: 1em;
+  padding: 6rem;
+}
+
+.content {
+  width: auto;
+}
+
+.content p {
+  width: 90%;
+  font-size: 1.1rem;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.content button {
+  margin: 1rem;
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  background-color: rgb(94, 65, 221);
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.content button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.special-card-cont {
+  text-align: center;
+}
+
+.special-card-cont p {
+  width: 100%;
+}
+
+.special-card-cont img {
+  width: 90%;
+  height: 60%;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.team-sector-text {
+  margin: 4rem;
+}
+
+.team-sector-text p {
+  width: 40%;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}

@@ -1,13 +1,14 @@
-footer {
-  background-color: rgb(94, 65, 221);
-  width: 100%;
-  height: 15em;
-  color: white;
-  bottom: 0;
-  display: flex;
-  justify-content: space-around;
-  padding: 2rem;
-}
+
+footer{
+    background-color: rgb(94, 65, 221);
+    width: 100%;
+    height: 15em;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+
+
 
 .social h2 {
   padding-bottom: 2rem;
