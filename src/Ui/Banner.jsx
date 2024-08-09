@@ -1,4 +1,5 @@
 import "./Banner.css";
+import propTypes from "prop-types";
 function Banner({ backgroundImage, text, title }) {
   return (
     <div
@@ -11,4 +12,9 @@ function Banner({ backgroundImage, text, title }) {
   );
 }
 
+Banner.propTypes = {
+  backgroundImage: propTypes.string.isRequired,
+  text: propTypes.string.isRequired,
+  title: propTypes.string.isRequired,
+};
 export default Banner;
