@@ -11,6 +11,11 @@ function Banner({ backgroundImage, text, title }) {
     </div>
   );
 }
+Banner.propTypes = {
+  backgroundImage: propTypes.string,
+  text: propTypes.string,
+  title: propTypes.string,
+};
 
 Banner.propTypes = {
   backgroundImage: propTypes.string.isRequired,
