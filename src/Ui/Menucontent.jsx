@@ -8,6 +8,7 @@ function Menucontent({ title, text }) {
     </div>
   );
 }
+
 Menucontent.propTypes = {
   title: propTypes.string,
   text: propTypes.string,

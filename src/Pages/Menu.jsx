@@ -1,4 +1,5 @@
 import Banner from "../Ui/Banner";
+import Services from "../Ui/Services";
 
 function Menu() {
   return (
@@ -8,6 +9,7 @@ function Menu() {
         title="Our Menu"
         backgroundImage="signeture-bg-1_10_KVussGfl.webp"
       />
+      <Services />
     </div>
   );
 }
