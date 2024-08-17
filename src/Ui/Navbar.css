@@ -6,9 +6,11 @@ header {
   padding: 0px 10px;
   width: 100%;
   height: 80px;
-  background-color: blue;
+  background-color: rgb(94, 65, 221);
   color: white;
+  position: fixed;
 }
+
 .link {
   text-decoration: none;
   margin: 0px 20px;
@@ -22,4 +24,38 @@ header {
 .link.active:link,
 .link.active:visited {
   color: gray;
+}
+ul {
+  display: flex;
+}
+header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.bars {
+  display: none;
+}
+.times {
+  display: none;
+}
+@media screen and (max-width: 1078px) {
+  .bars,
+  .times {
+    display: block;
+  }
+  ul {
+    /* display: none; */
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    background-color: rgb(94, 65, 221);
+    width: 100%;
+    transform: translateY(0);
+    transition-duration: 0.5s;
+  }
+  header {
+    position: relative;
+    position: fixed;
+  }
 }

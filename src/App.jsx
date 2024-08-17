@@ -5,6 +5,7 @@ import Contact from "./Pages/Contact";
 import Menu from "./Pages/Menu";
 import AppLayout from "./Ui/AppLayout";
 
+
 function App() {
   return (
     <>
@@ -14,8 +15,8 @@ function App() {
             <Route index element={<Navigate replace to="Home" />} />
             <Route path="Home" element={<Home />} />
             <Route path="About" element={<About />} />
-            <Route path="Contact" element={<Contact />} />
             <Route path="Menu" element={<Menu />} />
+            <Route path="Contact" element={<Contact />} />
           </Route>
         </Routes>
       </BrowserRouter>
